@@ -376,6 +376,7 @@ export interface ApiPagePage extends Schema.SingleType {
   attributes: {
     Title: Attribute.String;
     Body: Attribute.String;
+    Markdown: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
